@@ -111,7 +111,79 @@
   font-weight: bold;
 }
 
+/* Standards Curriculum */
 
+.Curriculum-title{
+ text-align: center;
+ font-size: 46px;
+ font-weight: bold;
+}
+
+.Curriculum-cards{
+  /* border: 2px solid blue; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 100px 140px;
+  justify-items: center;
+  row-gap: 15px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 367.8px;
+  height: 476.78px;
+  border: none;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  /* gap: 20px; */
+  /* background-color: rgba(222, 245, 255, 1); */
+}
+
+.card img{
+  width: 136px;
+  height: 136px;
+}
+
+.card h2{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card p{
+  text-align: center;
+  font-size: 15px;
+}
+
+.sk{
+  background-color: rgb(205, 233, 244);
+}
+
+.orn{
+  background-color: rgb(247, 239, 224);
+}
+
+.pu{
+  background-color: rgb(241, 234, 249);
+}
+
+.card .sky-l{
+  color: rgba(1, 172, 253, 1);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card .orange-l{
+ color: rgba(254, 163, 1, 1);
+ text-decoration: none;
+ font-weight: bold;
+}
+
+.card .pirpal-l{
+  font-weight: bold;
+  text-decoration: none;
+}
 
 
 /* media query */
@@ -126,7 +198,7 @@
     justify-content: space-between;
     width: 358px;
     height: 46px;
-    margin: 12px 15px;
+    margin: 12px 19px;
   }
 
   .search-btn button{
@@ -141,7 +213,7 @@
 
   .head-box{
     flex-direction: column-reverse;
-    f
+  
   }
   .discription h1{
     font-size: 32px;
@@ -186,4 +258,25 @@
     width: 310px;
     height: 400px;
   }
+
+  .Curriculum-title{
+    font-size: 26px;
+  }
+  .Curriculum-cards{
+    /* border: 2px solid blue; */
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px 10px;
+    justify-items: center;
+    row-gap: 15px;
+  }
+
+  .card{
+    width: 357px;
+    height: 321px;
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
