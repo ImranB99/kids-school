@@ -185,6 +185,140 @@
   text-decoration: none;
 }
 
+.Curriculum{
+  margin-top: 80px;
+}
+
+/* Story Section  */
+
+.story-title{
+  text-align: center;
+  font-size: 46px;
+  font-weight: bold;
+}
+.story-box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 10px 140px;
+  margin-left: 240px;
+}
+
+.first-story{
+  width: 540px;
+  height: 630px;
+  font-size: 24px;
+}
+
+.more-story{
+  font-size: 15px;
+  /* margin-right: 55px; */
+  display: grid;
+  row-gap: 55px;
+  grid-template-columns: repeat(2, 1fr)
+}
+
+.story-btn{
+  width: 250px;
+  height: 50px;
+  background-color:rgba(60, 216, 232, 1);
+  color: white;
+  border: none;
+  border-radius: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.story-btn2{
+  width: 150px;
+  height: 40px;
+  background-color:rgba(149, 178, 38, 1);
+  border: none;
+  border-radius: 16px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.view-btn{ 
+  width: 250px;
+  height: 50px;
+  background-color:black;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 80px;
+}
+
+.view-btn-box{
+  display: flex;
+  justify-content: center;
+}
+
+/* Footer Style  */
+.footer-bg{
+  background-color:rgba(1, 172, 253, 1) ;
+}
+
+.footer{
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+
+  margin: 0px 140px;
+  margin-top:60px;
+}
+
+.footer-logo{
+  display: flex;
+  /* border: 2px solid blue; */
+  align-items: center;
+  
+
+}
+
+.footer-logo h1{
+  color: white;
+}
+
+.footer-logo img{
+  width: 82px;
+  height: 82px;
+  
+}
+
+.kids-para{
+  width: 400px;
+  height: 100px;
+  color: white;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.about h3{
+  color: white;
+  font-size: 24;
+  font-weight: bold;
+}
+
+.about a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600px;
+  color: white;
+}
+
+.social h3{
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
 
 /* media query */
 @media screen and (max-width: 576px) {
@@ -278,5 +412,110 @@
     justify-content: center;
     align-items: center;
   }
+
+  /* Stoey Section  */
+  .story-title{
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;}
+
+    .story-box{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin: 2px 16px;
+      /* margin-left: 240px; */
+    }
+
+
+    .first-story{
+      display: none;
+    }
+
+    .first-story img{
+      width: 350px;
+    }
+
+    .more-story{
+      font-size: 9px;
+      /* margin-right: 55px; */
+      display: grid;
+      row-gap: 10px;
+      grid-template-columns: repeat(2, 1fr)
+    }
+
+
+    .more-story img{
+      width: 173px;
+      height: 105px;
+    }
+
+    .more-story h2{
+      font-size: 9px;
+    }
+
+    .story-btn2{
+      width: 100px;
+      height: 20px;
+      background-color:rgba(149, 178, 38, 1);
+      border: none;
+      border-radius: 8px;
+      font-size: 9px;
+      font-weight: bold;
+    }
+
+    .view-btn{
+      width: 134px;
+      height: 40px;
+      background-color:black;
+      color: white;
+      border: none;
+      border-radius: 16px;
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 80px;
+    }
+
+    .footer{
+
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-items: left;
+    
+      padding: 10px 5px 20px 15px;
+      margin: 0px 00px;
+      margin-top: 60px;
+    }
+
+    .footer-logo h1{
+      color: white;
+      font-size: 30px;
+    }
+    
+    .footer-logo img{
+      width: 69px;
+      height: 69px;
+      
+    }
+    
+    ..footer-logo h1{
+      color: white;
+    }
+    
+    .footer-logo img{
+      width: 82px;
+      height: 82px;
+      
+    }
+    
+    .kids-para{
+      width: 357px;
+      height: 80px;
+      color: white;
+    }
+
+    .kids-para p{
+      font-size: 16px;
+      margin-right: 10px;
+    }
 
 }
