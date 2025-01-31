@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.display-flex{
+  display: flex;
+  
+}
+
+.nav-bar{
+  margin: 20px 140px;
+  /* border: 2px solid blue; */
+  height: 62px;
+  justify-content: space-between;
+}
+
+
+.logo img{
+  margin-right: 32px;
+}
+
+
+.search-bar{
+  align-items: center;
+  gap: 32px;
+}
+
+.search-bar a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.home{
+  color: rgba(254, 163, 1, 1);
+}
+.about{
+  color: rgba(1, 172, 253, 1);
+}
+.facilities{
+  color: rgba(5, 212, 223, 1);
+}
+.Admission{
+  columns: rgba(93, 88, 239, 1);
+}
+
+
+.search-btn{
+  display: flex;
+  align-items: center;
+  padding: 10px ;
+}
+
+.search-btn button{
+  width: 197px;
+  height: 50px;
+  background-color: rgba(254, 163, 1, 1);
+  border: none;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 600px;
+  color: white;
+}
+
+/* head-box Style  */
+.head-box{
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  height: 575px;
+  margin: 10px 140px;
+}
+
+.discription{
+  width: 640px;
+  height: 331px;
+  margin-top: 112px;
+  margin-bottom: 112px;
+}
+
+.discription h1{
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.orange{
+  color: rgba(254, 163, 1, 1);
+}
+
+.sky{
+  color: rgba(1, 172, 253, 1);
+}
+
+.discription p{
+ font-size: 20px;
+}
+
+.enroll{
+  width: 157px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+
+/* media query */
+@media screen and (max-width: 576px) {
+  /* Nav */
+  .search-bar, .nav-title{
+    display: none;
+    /* visibility: hidden; */
+  }
+  .nav-bar{
+    /* border: 2px solid blue; */
+    justify-content: space-between;
+    width: 358px;
+    height: 46px;
+    margin: 12px 15px;
+  }
+
+  .search-btn button{
+    width: 100px;
+    height: 32px;
+    font-size: 19px;
+  }
+
+  .search-btn {
+    padding: 3px;
+  }
+
+  .head-box{
+    flex-direction: column-reverse;
+    f
+  }
+  .discription h1{
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+
+  .head-box{
+    /* border: 2px solid blue; */
+    height: 725px;
+    margin: 8px 16px;
+  }
+
+  .discription p{
+    font-size: 14px;
+   }
+
+   .discription{
+    width: 357px;
+    height: 252px;
+    margin: 20px 16px;
+  }
+
+  .enroll{
+    width: 125px;
+    height: 42px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+
+  .img-box{
+    width: 336px;
+    height: 413px;
+    margin: 10px 20px ;
+  }
+
+  .img-box img{
+    width: 310px;
+    height: 400px;
+  }
+}
